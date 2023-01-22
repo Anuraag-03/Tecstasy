@@ -442,6 +442,7 @@ a.movie-item:hover {
     align-items: center;
     justify-content: space-between;
     font-size: 1.5rem;
+    color : rgb(26, 210, 239);
 }
 
 .event-price {
@@ -453,7 +454,6 @@ a.movie-item:hover {
 }
 
 .event-box-content {
-    text-align: center;
     margin-top: 60px;
     font-size: 1.25rem;
 }
@@ -487,6 +487,10 @@ footer a.logo:hover {
     display: flex;
     align-items: center;
     margin-top: 20px;
+}
+
+.posters{
+    padding: 30px 500px 30px 500px;
 }
 
 .social-item {
