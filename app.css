@@ -38,6 +38,9 @@ img {
     color: var(--main-color);
 }
 
+.sec-color {
+    color : rgb(222, 46, 46);
+}
 .container {
     max-width: 1920px;
     padding: 0 40px;
@@ -410,7 +413,7 @@ a.movie-item:hover {
     align-items: center;
 }
 
-.pricing-header {
+.event-header {
     margin-bottom: 30px;
     text-align: center;
     font-size: 2rem;
@@ -418,7 +421,7 @@ a.movie-item:hover {
     text-transform: uppercase;
 }
 
-.pricing-box {
+.event-box {
     padding: 50px;
     margin: 15px 0;
     background-color: var(--box-bg);
@@ -426,36 +429,36 @@ a.movie-item:hover {
     transition: transform 0.3s ease-in-out;
 }
 
-.pricing-box:hover {
+.event-box:hover {
     transform: translateY(-20px);
 }
 
-.pricing-box.hightlight {
+.event-box.hightlight {
     border-top: 5px solid var(--main-color);
 }
 
-.pricing-box-header {
+.event-box-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.5rem;
 }
 
-.pricing-price {
+.event-price {
     font-weight: 700;
 }
 
-.pricing-price span {
+.event-price span {
     font-size: 1rem;
 }
 
-.pricing-box-content {
+.event-box-content {
     text-align: center;
     margin-top: 60px;
     font-size: 1.25rem;
 }
 
-.pricing-box-action {
+.event-box-action {
     text-align: center;
     margin-top: 60px;
 }
